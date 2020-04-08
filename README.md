@@ -15,4 +15,7 @@ The Nonprofit Data Warehouse Quickstart is a pre-packaged, ‘one-click deployme
 * All code and sample data for these solutions is contained in the corresponding ZIP files.  
 
 
+Please see the following link to view the complete list of [Tech for Social Impact Nonprofit Solutions](https://github.com/microsoft/Nonprofits)
+
+
 
