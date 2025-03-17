@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is no longer being actively maintained and will be removed from GitHub on December 31, 2025.
+
 # Nonprofit Data Warehouse Quickstart
 
 Data warehouses enable organizations to get the most out of their data by aggregating multi-source data and transforming it so that organizations can layer analytics and generate important insights. 
