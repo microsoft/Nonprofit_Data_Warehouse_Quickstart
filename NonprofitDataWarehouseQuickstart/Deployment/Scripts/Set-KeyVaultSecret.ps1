@@ -38,7 +38,7 @@ param(
 
     [Parameter(Mandatory=$false)]
     [ValidateNotNullOrEmpty()]
-    [object] $SecretConfiguration = '[{"SecretName":"SqlDatawarehouse-ConnectionString","SecretValue":"Server=tcp:mstsidhsqlweudev.database.windows.net,1433;Initial Catalog=mstsidhsqldwweudev;Persist Security Info=False;User ID=mstsidhadmin;Password=2G8zLXt22mKUMyz7;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;"}]'
+    [object] $SecretConfiguration = '[{"SecretName":"SqlDatawarehouse-ConnectionString","SecretValue":"Server=tcp:mstsidhsqlweudev.database.windows.net,1433;Initial Catalog=mstsidhsqldwweudev;Persist Security Info=False;User ID=TBD;Password=TBD;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;"}]'
 )
 
 ### Clear Screen
