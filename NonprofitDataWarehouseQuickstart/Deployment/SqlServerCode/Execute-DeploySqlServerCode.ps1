@@ -38,7 +38,7 @@
 
         e.g.
         $CommandParameters = @(
-            @{SearchString="%MASTER_KEY%"; ReplaceValue="b34mi8v87&^£kjhdsab"},
+            @{SearchString="%MASTER_KEY%"; ReplaceValue="b34mi8v87&^Â£kjhdsab"},
             @{SearchString="%STORAGE_ROOT_URI%"; ReplaceValue="abfss://datahub@ppsmstsidhadlsweudev.dfs.core.windows.net"}
         )
   
@@ -95,7 +95,7 @@
 param(
     [Parameter(Mandatory=$true)]
     [ValidateNotNullOrEmpty()]
-    [string] $ConnectionString = "Server=tcp:ppsmstsidhsqlweudev.database.windows.net,1433;Initial Catalog=DataHub;Persist Security Info=False;User ID=datahubadmin;Password=L1/`\N[E<8tR+Gg-)@sQU7fd>c;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;",
+    [string] $ConnectionString = "Server=tcp:ppsmstsidhsqlweudev.database.windows.net,1433;Initial Catalog=DataHub;Persist Security Info=False;User ID=TBD;Password=TBD;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;",
 
     #[Parameter(Mandatory=$true)]
     [ValidateNotNullOrEmpty()]
@@ -117,7 +117,7 @@ param(
    # [Parameter(Mandatory=$true)]
     [ValidateNotNullOrEmpty()]
     [object[]] $CommandParameters = @(
-            @{SearchString="%MASTER_KEY%"; ReplaceValue="b34mi8v87&^£kjhdsab"},
+            @{SearchString="%MASTER_KEY%"; ReplaceValue="b34mi8v87&^Â£kjhdsab"},
             @{SearchString="%STORAGE_ROOT_URI%"; ReplaceValue="abfss://datahub@ppsmstsidhadlsweudev.dfs.core.windows.net"}
     ),
 
